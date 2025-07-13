@@ -1,5 +1,5 @@
 
-# Active Directory Simulation – CyberTech Solutions
+# Active Directory Deployment in CyberTech Solutions
 
 This project is the deployment of a Windows Server Domain Controller (Active Directory) for a company called **CyberTech Solutions**. It includes domain setup, client configuration, OU design, group policies, and access control in an enterprise environment.
 
@@ -10,8 +10,8 @@ This project is the deployment of a Windows Server Domain Controller (Active Dir
 **CyberTech Solutions** is a small IT services firm with the following structure:
 
 - 1 x Windows Server (AD Domain Controller)
-- 1 x Windows 8 Client PC (Account Department)
-- 1 x Windows 7 Client PC (Legacy Software)
+- 2 x Windows 8 Client PC (Account Department)
+- 1 x Windows 10 Client PC (Aduit Department)
 
 ---
 
@@ -33,9 +33,9 @@ Internet
 Router (Gateway: 10.0.5.1)
    ↓
 Switch
- ┌──────┬─────────────┬──────────────┐
- │      │             │              │
-Server  PC1 (Win 8)   PC2 (Win XP)
+ ┌──────┬─────────────┬──────────────┐──────────┐
+ │      │             │              │          │
+Server  PC1 (Win 8)   PC2 (Win 8)    PC3 (Win 10)
 ```
 
 | Device        | IP Address      | Role                        |
